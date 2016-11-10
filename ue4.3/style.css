@@ -1,0 +1,42 @@
+.content
+{
+	height:800px;
+	background: lightblue; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,lightblue,#2989d8);
+	background: linear-gradient(center, ellipse cover,lightblue,#2989d8);
+	background: -webkit-linear-gradient(center, ellipse cover,lightblue,#2989d8);
+	background: -o-linear-gradient(center, ellipse cover,lightblue,#2989d8);
+}
+.login
+{
+	margin-top: 200px;
+}
+.input
+{
+	height:70px;
+	font-size: 20px;
+	background-color: transparent;
+}
+.button
+{
+	width:100%;
+	height:70px;
+	font-size: 20px;
+	color:#999;
+	background-color: transparent;
+}
+.btn-default:hover
+{
+	background-color: #97CBE4;
+	color:#999;
+}
+.btn-default:active
+{
+	background-color: lightblue;
+	box-shadow: none;
+}
+.btn-default:active:focus
+{
+	background-color: lightblue;
+	box-shadow: none;
+}

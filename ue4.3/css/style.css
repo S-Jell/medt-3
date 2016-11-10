@@ -1,0 +1,123 @@
+
+body {
+	margin: 0;
+	background-color:white;
+}
+.text2
+{
+	background-color: darkgray;
+}
+.text3
+{
+	background-color:darkorange;
+}
+
+.header {
+	min-height: 100px;
+	background-color: lightgray;
+	padding: 30px;
+	border-bottom: 0px;
+}
+
+.header .container {
+	padding: 20px;
+}
+
+.header img {
+	margin-right: 30px;
+	float: left;
+}
+
+.header h1{
+	float: left;
+	border-bottom: 0;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+.navbar {
+	background-color: lightgray;
+	font-size: 18px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.navbar-collapse {
+}
+
+.navbar li:hover {
+	background-color: #123;
+
+}
+
+.navbar li a {
+	color: #fff;
+}
+
+.navbar li a:hover {
+	/*background-color: #262626;*/
+	background-color: lightblue;
+	color:blue;
+}
+
+.navbar li a:focus {
+	background-color: #262626;
+}
+
+.navbar-toggle {
+    background-color: #262626;
+    background-image: none;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+span.icon-bar {
+	background-color: lightgray;
+}
+
+
+
+
+
+.main .row {
+	padding: 15px;
+}
+
+.main .col-md-12 {
+	padding: 0;
+	margin-bottom: 0px;
+    min-height: 600px;
+}
+
+.main .col-md-4 {
+	padding: 0;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.main .col-md-4 .text{
+	background-color: white;
+	color: black;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.main .colcontent {
+	background-color: lightgray;
+	min-height: 600px;
+}
+
+footer {
+    background-color: lightgray;
+    margin-top: 0px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
