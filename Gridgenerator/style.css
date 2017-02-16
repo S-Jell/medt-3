@@ -1,0 +1,30 @@
+body
+{
+	background-image:url("img/bg01.jpg");
+	background-size:100%;
+	background-repeat:;
+}
+.table
+{
+	font-size: 15px;
+	color:white;
+}
+.container
+{
+	
+	height:100%;
+	color:white;
+	background-color: rgba(255,255,255,0.05);
+	
+}
+
+.button
+{
+	background-color: #044df2;
+}
+.button:hover
+{
+	color:white;
+	background-color: #3b71ed;
+}
+
