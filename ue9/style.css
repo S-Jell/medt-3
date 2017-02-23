@@ -1,0 +1,27 @@
+
+table {
+    margin-top:20px;
+    font-family: arial, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.glyphicon-pencil
+{
+	color:green;
+	margin-left: 0;
+}
+.glyphicon-trash
+{
+	color:darkred;
+}

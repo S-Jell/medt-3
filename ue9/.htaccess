@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected Area! Please authenticate."
+AuthUserFile D:\Programme\XAMPP\htdocs\medt\ue9\.htpasswd
+Require valid-user
