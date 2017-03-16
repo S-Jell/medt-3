@@ -40,9 +40,11 @@ if(!isset($_GET['chg']))
 {
     $_GET['chg'] = 1;
     $res = $db->query("SELECT * FROM customers LIMIT $limitNext, $limit");
+
     $tmp = $res->fetchAll(PDO::FETCH_ASSOC);
 }
 else if (isset($_GET['chg']))
+    
 {
     if ($_GET['chg'] < 1)
     {
@@ -57,7 +59,7 @@ else if (isset($_GET['chg']))
     $tmp = $res->fetchAll();
 }
 
-echo "<table class='table table-striped'>";
+echo "<table class='table table-inverse'>";
 echo "<tr>";
 
 echo "<th><p>Unternehmen</th>";
@@ -80,15 +82,15 @@ foreach ($tmp as $row) {
 echo "</table>";
 
 echo "<div style='text-align: center;'>";
-echo "<a href=\"".$_SERVER['PHP_SELF']."?chg="."1". "\" style='color: black'><span class='glyphicon glyphicon-backward' aria-hidden='true'></span></a> ";
-echo "<a href=\"".$_SERVER['PHP_SELF']."?chg=".($_GET['chg']-1)." .\" style='color: black'><span class='glyphicon glyphicon-menu-left' aria-hidden='true' ></span></a>";
+echo "<a href=\"".$_SERVER['PHP_SELF']."?chg="."1". "\" style='color: blue'><span class='glyphicon glyphicon-backward' aria-hidden='true'></span></a> ";
+echo "<a href=\"".$_SERVER['PHP_SELF']."?chg=".($_GET['chg']-1)." .\" style='color: blue'><span class='glyphicon glyphicon-menu-left' aria-hidden='true' ></span></a>";
 
 for ($i = 1;$i <= $count;$i++){
     echo "<a href=\"".$_SERVER['PHP_SELF'].'?chg='.$i."\">".$i."</a>";
 }
 
-echo "<a href=\"".$_SERVER['PHP_SELF']."?chg=".($_GET['chg']+1)."\" style='color: black'><span class='glyphicon glyphicon-menu-right' aria-hidden='true'></span></a>";
-echo "<a href=\"".$_SERVER['PHP_SELF']."?chg=".$count."\" style='color: black'><span class='glyphicon glyphicon-forward' aria-hidden='true'></span></a> ";
+echo "<a href=\"".$_SERVER['PHP_SELF']."?chg=".($_GET['chg']+1)."\" style='color: blue'><span class='glyphicon glyphicon-menu-right' aria-hidden='true'></span></a>";
+echo "<a href=\"".$_SERVER['PHP_SELF']."?chg=".$count."\" style='color: blue'><span class='glyphicon glyphicon-forward' aria-hidden='true'></span></a> ";
 
 
 ?>
